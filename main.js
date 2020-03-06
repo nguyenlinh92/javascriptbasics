@@ -1,26 +1,14 @@
-function count(firstNum, secondNum) {
-    console.log(firstNum + secondNum);
-}
+//array - has variables 
+var batoh = ["tuzky", "backory", "omalovanky", 1, 3, 8, true]; 
+    console.log(batoh[6]);
 
-function deduct(firstNum, secondNum, message) {
-    console.log(message + " " + (firstNum - secondNum));
-}
-
-function compare(firstNum, secondNum) {
-    if (firstNum == secondNum) {
-        console.log(firstNum + " equals " + secondNum);
-    } else {
-        console.log(firstNum + " does not equal " + secondNum);
+//object - has properties, not variables
+var pes = {
+    nohy: 4,
+    ocas: 1,
+    pohlavi: "fenka",
+    jeAgresivni: false,
+    stekej: function (){
+        console.log("haf");
     }
 }
-
-// 2 == 2
-// true
-// 2 === 2
-// true
-// 2 == "2"
-// true
-// 2 === "2"
-// false
-// 2 === Number("2")
-// true
